@@ -33,9 +33,14 @@ cout << " Hello, Welcome to Brian's Carpet Cleaning Servive" << endl; // outstat
 
 int small_room; // variable to hold small rooms
 
-cout << "How many small rooms would you liked cleaned?" << endl;// statement 
+cout << "How many small rooms would you liked cleaned?" << endl;//  output statement 
 
 cin >> small_rooms // input statement that will generate the small rooms value,
+
+int large_rooms; // variable to hold large rooms
+
+cout << " How many large rooms would you like cleaned?" //  output statement
+cin >> large_rooms; // input statement 
 
 
     return 0; // program is working
