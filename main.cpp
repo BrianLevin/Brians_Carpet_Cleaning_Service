@@ -70,6 +70,20 @@ cout << "Tax: $" << // cost times the tax
 
 << endl;
 
+cout << "*************************************************"
+
+
+cout << "Total estimate: $" // takes the toal cost and adds the sales tax to it
+
+<< ((price_per_small_room * small_rooms) + (price_per_large_room * large_rooms)) +
+(((price_per_small_room * small_rooms)+ (price_per_large_room * large_rooms)) * sales_tax);
+
+<< endl;
+
+cout << "the estimate is valid for " << estimate_expiry << "days" << endl; // how long the estimate is valid for
+
+    return 0; // program is working
+
 
 
     return 0; // program is working
