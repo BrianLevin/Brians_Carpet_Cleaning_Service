@@ -29,11 +29,13 @@ using namespace std; // name space  that is built in to use std:: without using 
 
 int main (){ // The function called to  run the program
 
-cout << " Hello, Welcome to Brian's Carpet Cleaning Servive" << endl; // statement
+cout << " Hello, Welcome to Brian's Carpet Cleaning Servive" << endl; // outstatement
 
 int small_room; // variable to hold small rooms
 
 cout << "How many small rooms would you liked cleaned?" << endl;// statement 
+
+cin >> small_rooms // input statement that will generate the small rooms value,
 
 
     return 0; // program is working
