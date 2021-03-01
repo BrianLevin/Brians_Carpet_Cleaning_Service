@@ -25,11 +25,15 @@ This estimate is valid for 30 days
 */
 
 #include <iostream> // preprocessor stream that includes java libraries to run the program
-using namespace std; // name space  that is built in to use std:: without using that syntax for
+using namespace std; // name space  that is built in to use std:: without using that syntax for every statement
 
 int main (){ // The function called to  run the program
 
+cout << " Hello, Welcome to Brian's Carpet Cleaning Servive" << endl; // statement
 
+int small_room; // variable to hold small rooms
+
+cout << "How many small rooms would you liked cleaned?" << endl;// statement 
 
 
     return 0; // program is working
