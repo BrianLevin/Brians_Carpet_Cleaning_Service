@@ -50,6 +50,14 @@ const double sales_tax = 0.06; // sales tax
 
 const int estimate_expiry = 30;  // expires in 30 days.
 
+cout << "\nEstimate for carpet cleaning service " << endl; // estimates for  how much the service is going to be
+cout << "Number of small rooms " << small_rooms << endl;
+cout << "Number of large rooms " << large_rooms << endl;
+
+cout << "Price per small room: $" << price_per_small_room << endl; 
+
+cout << "Price per large room: $" << price_per_large_room << endl; 
+
 
     return 0; // program is working
 }
