@@ -42,6 +42,14 @@ int large_rooms; // variable to hold large rooms
 cout << " How many large rooms would you like cleaned?" //  output statement
 cin >> large_rooms; // input statement 
 
+const double price_per_small_room = 25; // declared constants for rooms
+
+const double price_per_large_room = 35;
+
+const double sales_tax = 0.06; // sales tax
+
+const int estimate_expiry = 30;  // expires in 30 days.
+
 
     return 0; // program is working
 }
