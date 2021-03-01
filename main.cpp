@@ -25,11 +25,12 @@ This estimate is valid for 30 days
 */
 
 #include <iostream> // preprocessor stream that includes java libraries to run the program
+using namespace std; // name space  that is built in to use std:: without using that syntax for
+
+int main (){ // The function called to  run the program
 
 
-int main (){
 
 
-
-    return 0;
+    return 0; // program is working
 }
